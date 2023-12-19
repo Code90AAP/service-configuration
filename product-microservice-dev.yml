@@ -14,4 +14,4 @@ spring:
     generate-ddl: true
 
 app:
-  testProp: Property of test updated again
+  testProp: Property of test updated again X2
