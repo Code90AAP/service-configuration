@@ -4,7 +4,6 @@ product:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/product_microservice
   jpa:
     hibernate:
       ddl-auto: create
