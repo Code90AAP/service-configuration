@@ -13,4 +13,4 @@ spring:
     generate-ddl: true
 
 app:
-  testProp: Property of test updated again X2
+  testProp: Property of test updated for Bus and Message Broker
