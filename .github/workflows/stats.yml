@@ -30,7 +30,7 @@ jobs:
           python-version: '3.12'
       # Ejecutamos el script de python
       - name: Run script
-      - run: python ./stats.py
+        run: python ./stats.py
       - name: Commit and Push changes
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
