@@ -1,0 +1,41 @@
+# Le damos un nombre
+name: Stats
+# Indicamos en que se va a realizar el actions
+on:
+# Indicamos que el actions se realizara cada vez que realizamos un push en la rama main
+  push: 
+    branches: [ main ]
+# Indicamos los trabajos que realizara las actions 
+# Podrian haber varios jobs dentro del actions
+# Estos podrian ejecutarse en paralelo o secuencialmente y depues acabar juntando el resultado
+jobs: 
+  # Indicamos los procesos de construccoin del proyecto
+  build:
+    # Indicamos el tipo de maquina donde ejecutaremos el build
+    runs-on: ubuntu-latest
+    # Al token por defecto de github hay que darle permisos de commit y push
+    # Esta configuracion va con la actions de commit
+    # Decimos que le damos permisos de escribir
+    permissions:
+      contents: write
+    # Indicamos los pasos de nuestros jobs
+    # Tmabien podemos decir que definimos los actions de nuestro jobs
+    steps:
+      # De esta manera traemos todo el codigo del repositorio automaticamnete y le definimos un name al actions
+      - name: Checkout repo
+      - uses: actions/checkout@v4
+      - name: Setup Python 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Ejecutamos el script de python
+      - name: Run script
+      - run: python ./stats.py
+      - name: Commit and Push changes
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update stats
+          commit_user_name: Anderson [Github actions]
+          commit_user_email: anderson.kol9090@gmail.com
+          commit_author: anferdev
+          
