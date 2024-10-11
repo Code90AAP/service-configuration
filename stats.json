@@ -1,0 +1,449 @@
+{
+    "challenges_total": 0,
+    "languages_total": 25,
+    "files_total": 53,
+    "users_total": 48,
+    "challenges_ranking": [],
+    "languages_ranking": [
+        {
+            "order": 1,
+            "name": "hooks",
+            "count": 14,
+            "percentage": 26.42
+        },
+        {
+            "order": 2,
+            "name": ".git",
+            "count": 7,
+            "percentage": 13.21
+        },
+        {
+            "order": 3,
+            "name": ".idea",
+            "count": 5,
+            "percentage": 9.43
+        },
+        {
+            "order": 4,
+            "name": ".",
+            "count": 4,
+            "percentage": 7.55
+        },
+        {
+            "order": 5,
+            "name": "heads",
+            "count": 2,
+            "percentage": 3.77
+        },
+        {
+            "order": 6,
+            "name": "origin",
+            "count": 2,
+            "percentage": 3.77
+        },
+        {
+            "order": 7,
+            "name": "workflows",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 8,
+            "name": "info",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 9,
+            "name": "logs",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 10,
+            "name": "49",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 11,
+            "name": "d6",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 12,
+            "name": "45",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 13,
+            "name": "1a",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 14,
+            "name": "94",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 15,
+            "name": "0a",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 16,
+            "name": "7c",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 17,
+            "name": "aa",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 18,
+            "name": "c1",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 19,
+            "name": "6f",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 20,
+            "name": "a6",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 21,
+            "name": "0b",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 22,
+            "name": "13",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 23,
+            "name": "07",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 24,
+            "name": "f9",
+            "count": 1,
+            "percentage": 1.89
+        },
+        {
+            "order": 25,
+            "name": "ea",
+            "count": 1,
+            "percentage": 1.89
+        }
+    ],
+    "users_ranking": [
+        {
+            "order": 1,
+            "name": "master",
+            "count": 4,
+            "languages": 2
+        },
+        {
+            "order": 2,
+            "name": "head",
+            "count": 2,
+            "languages": 2
+        },
+        {
+            "order": 3,
+            "name": "config",
+            "count": 2,
+            "languages": 1
+        },
+        {
+            "order": 4,
+            "name": "booking-microservice-dev",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 5,
+            "name": "product-microservice-prod",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 6,
+            "name": "product-microservice-dev",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 7,
+            "name": "booking-microservice-prod",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 8,
+            "name": ".gitignore",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 9,
+            "name": "modules",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 10,
+            "name": "vcs",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 11,
+            "name": "misc",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 12,
+            "name": "service-configuration",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 13,
+            "name": "stats",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 14,
+            "name": "description",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 15,
+            "name": "index",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 16,
+            "name": "fetch_head",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 17,
+            "name": "shallow",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 18,
+            "name": "exclude",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 19,
+            "name": "c0a1676143113aee49363ee70a6bd423f485f7",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 20,
+            "name": "ebd4805981b8400db3e3291c74a743fef9a824",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 21,
+            "name": "f9c7bd2a0166718e83ed6be259865005d395dd",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 22,
+            "name": "bcf195db663713af8ea0d545fe663372cabe4f",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 23,
+            "name": "a25f7f4cb416c083d265558da75d457237d671",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 24,
+            "name": "776b45a591804a2ce8a20e40ff3cbe7132bebe",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 25,
+            "name": "ee365a6bf318eee2ce71ae180cf476cb0ee643",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 26,
+            "name": "c917205cf14a5c8bc88fb714fd0e4ac0fa837c",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 27,
+            "name": "59352d14cdb565f9bf67bd2dc2c52796f03351",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 28,
+            "name": "29fee2f2b3b412625a792b92bcd1263e5b765a",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 29,
+            "name": "ee53e514bc0bca1e5068b53b49c40f35e3feb9",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 30,
+            "name": "8794a81f71735b775be6b860313368c9f4f8f0",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 31,
+            "name": "566b81b018ad684f3a35fee301741b2734c8f4",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 32,
+            "name": "923c4d0267020eda12da9730fad77b6acc182c",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 33,
+            "name": "3bae6109769bd37580bbe8b25ec6552ce6c22d",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 34,
+            "name": "318fccb420a27bedc82db1db2ebb6e39ae77d2",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 35,
+            "name": "prepare-commit-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 36,
+            "name": "post-update",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 37,
+            "name": "fsmonitor-watchman",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 38,
+            "name": "sendemail-validate",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 39,
+            "name": "pre-rebase",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 40,
+            "name": "pre-commit",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 41,
+            "name": "commit-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 42,
+            "name": "pre-merge-commit",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 43,
+            "name": "pre-push",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 44,
+            "name": "applypatch-msg",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 45,
+            "name": "push-to-checkout",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 46,
+            "name": "pre-receive",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 47,
+            "name": "update",
+            "count": 1,
+            "languages": 1
+        },
+        {
+            "order": 48,
+            "name": "pre-applypatch",
+            "count": 1,
+            "languages": 1
+        }
+    ]
+}
