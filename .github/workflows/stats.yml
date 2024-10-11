@@ -4,7 +4,7 @@ name: Stats
 on:
 # Indicamos que el actions se realizara cada vez que realizamos un push en la rama main
   push: 
-    branches: [ main ]
+    branches: [ master ]
 # Indicamos los trabajos que realizara las actions 
 # Podrian haber varios jobs dentro del actions
 # Estos podrian ejecutarse en paralelo o secuencialmente y depues acabar juntando el resultado
