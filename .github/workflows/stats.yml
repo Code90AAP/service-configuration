@@ -3,8 +3,12 @@ name: Stats
 # Indicamos en que se va a realizar el actions
 on:
 # Indicamos que el actions se realizara cada vez que realizamos un push en la rama main
-  push: 
-    branches: [ master ]
+  #push: 
+    #branches: [ master ]
+  schedule: # Para lanzar eventos programados
+    # Se crea un acron para decir cuando queremos que se ejecute la tarea
+            #'M H D M'
+    - cron: '0 0 * * *' # De esa manera decimos que se ejecute todos los dias a media noche
 # Indicamos los trabajos que realizara las actions 
 # Podrian haber varios jobs dentro del actions
 # Estos podrian ejecutarse en paralelo o secuencialmente y depues acabar juntando el resultado
