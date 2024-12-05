@@ -1,2 +1,5 @@
 booking:
   property: Product Profile Dev
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ms-product
