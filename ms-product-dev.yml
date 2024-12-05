@@ -3,3 +3,6 @@ booking:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/ms-product
+
+test:
+  prodt: Product Profile Dev - Test
